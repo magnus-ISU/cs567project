@@ -1,0 +1,472 @@
+{ key: 'miCut', comment: ['&& denotes a mnemonic'] }, "Cu&&t"
+{ key: 'miCopy', comment: ['&& denotes a mnemonic'] }, "&&Copy"
+{ key: 'miPaste', comment: ['&& denotes a mnemonic'] }, "&&Paste"
+{ key: 'miToggleLineComment', comment: ['&& denotes a mnemonic'] }, "&&Toggle Line Comment"
+{ key: 'miToggleBlockComment', comment: ['&& denotes a mnemonic'] }, "Toggle &&Block Comment"
+{ key: 'selectTabWidth', comment: ['Tab corresponds to the tab key'] }, "Select Tab Size for Current File"), activeItem: picks[autoFocusIndex] }
+{ key: 'toggle.tabMovesFocus', comment: ['Turn on/off use of tab key for moving focus around VS Code'] }, "Toggle Tab Key Moves Focus"
+{ key: 'miSmartSelectGrow', comment: ['&& denotes a mnemonic'] }, "&&Expand Selection"
+{ key: 'miSmartSelectShrink', comment: ['&& denotes a mnemonic'] }, "&&Shrink Selection"
+{ key: 'label', comment: ['placeholders are keybindings, e.g "F2 to Rename, Shift+F2 to Preview"'] }, "{0} to Rename, {1} to Preview", this._keybindingService.lookupKeybinding(accept)?.getLabel(), this._keybindingService.lookupKeybinding(preview)?.getLabel()
+{ key: 'miInsertCursorAbove', comment: ['&& denotes a mnemonic'] }, "&&Add Cursor Above"
+{ key: 'miInsertCursorBelow', comment: ['&& denotes a mnemonic'] }, "A&&dd Cursor Below"
+{ key: 'miInsertCursorAtEndOfEachLineSelected', comment: ['&& denotes a mnemonic'] }, "Add C&&ursors to Line Ends"
+{ key: 'miAddSelectionToNextFindMatch', comment: ['&& denotes a mnemonic'] }, "Add &&Next Occurrence"
+{ key: 'miAddSelectionToPreviousFindMatch', comment: ['&& denotes a mnemonic'] }, "Add P&&revious Occurrence"
+{ key: 'miSelectHighlights', comment: ['&& denotes a mnemonic'] }, "Select All &&Occurrences"
+{ key: 'miCopyLinesUp', comment: ['&& denotes a mnemonic'] }, "&&Copy Line Up"
+{ key: 'miCopyLinesDown', comment: ['&& denotes a mnemonic'] }, "Co&&py Line Down"
+{ key: 'miDuplicateSelection', comment: ['&& denotes a mnemonic'] }, "&&Duplicate Selection"
+{ key: 'miMoveLinesUp', comment: ['&& denotes a mnemonic'] }, "Mo&&ve Line Up"
+{ key: 'miMoveLinesDown', comment: ['&& denotes a mnemonic'] }, "Move &&Line Down"
+{ key: 'label', comment: ['placeholders are keybindings, e.g "F2 to Apply, Shift+F2 to Preview"'] }, "{0} to Apply, {1} to Preview", this.keybindingService.lookupKeybinding(acceptSelectedCodeActionCommand)?.getLabel(), this.keybindingService.lookupKeybinding(previewSelectedCodeActionCommand)?.getLabel()
+{ key: 'customCodeActionWidget.labels', comment: ['Code action labels for accessibility.'] }, "{0}, Disabled Reason: {1}", label, element.action.action.disabled
+{ key: 'customCodeActionWidget', comment: ['A Code Action Option'] }, "Code Action Widget"
+{ key: 'miGotoDefinition', comment: ['&& denotes a mnemonic'] }, "Go to &&Definition"
+{ key: 'miGotoDeclaration', comment: ['&& denotes a mnemonic'] }, "Go to &&Declaration"
+{ key: 'miGotoTypeDefinition', comment: ['&& denotes a mnemonic'] }, "Go to &&Type Definition"
+{ key: 'miGotoImplementation', comment: ['&& denotes a mnemonic'] }, "Go to &&Implementations"
+{ key: 'miGotoReference', comment: ['&& denotes a mnemonic'] }, "Go to &&References"
+{ key: 'miGotoNextProblem', comment: ['&& denotes a mnemonic'] }, "Next &&Problem"
+{ key: 'miGotoPreviousProblem', comment: ['&& denotes a mnemonic'] }, "Previous &&Problem"
+{ key: 'miFind', comment: ['&& denotes a mnemonic'] }, "&&Find"
+{ key: 'miReplace', comment: ['&& denotes a mnemonic'] }, "&&Replace"
+{ key: 'miGoToBracket', comment: ['&& denotes a mnemonic'] }, "Go to &&Bracket"
+{ key: 'sayHello', comment: ['Welcomes user'] }, 'hello {0}', name
+key: string, message: string, ...args: (string | number | boolean | undefined | null)[]
+{ key: 'ok', comment: ['&& denotes a mnemonic'] }, "&&OK")
+{ key: 'reopen', comment: ['&& denotes a mnemonic'] }, "&&Reopen")
+{ key: 'wait', comment: ['&& denotes a mnemonic'] }, "&&Keep Waiting")
+{ key: 'close', comment: ['&& denotes a mnemonic'] }, "&&Close")
+{ key: 'reopen', comment: ['&& denotes a mnemonic'] }, "&&Reopen")
+{ key: 'close', comment: ['&& denotes a mnemonic'] }, "&&Close")
+{ key: 'ok', comment: ['&& denotes a mnemonic'] }, "&&OK")
+{ key: 'incompatible', comment: ['This is an error while syncing a resource that its local version is not compatible with its remote version.'] }, "Cannot sync {0} as its local version {1} is not compatible with its remote version {2}", this.resource, this.version, remoteUserData.syncData.version), UserDataSyncErrorCode.IncompatibleLocalContent, this.resource
+{ key: 'ok', comment: ['{0} denotes a number that is > 1'] }, "Undo in {0} Files", editStackSnapshot.editStacks.length
+{ key: 'ok', comment: ['&& denotes a mnemonic'] }, "&&OK")
+{ key: 'cancel', comment: ['&& denotes a mnemonic'] }, "&&Cancel")
+{ key: 'ok', comment: ['&& denotes a mnemonic'] }, "&&OK")
+{ key: 'cancel', comment: ['&& denotes a mnemonic'] }, "&&Cancel")
+{ key: 'ok', comment: ['&& denotes a mnemonic'] }, "&&OK")
+{ key: 'cancel', comment: ['&& denotes a mnemonic'] }, "&&Cancel")
+{ key: 'yes', comment: ['&& denotes a mnemonic'] }, "&&Yes")
+{ key: 'cancel', comment: ['&& denotes a mnemonic'] }, "&&Cancel")
+{ key: 'trace.ok', comment: ['&& denotes a mnemonic'] }, "&&OK")
+{ key: 'miNewWindow', comment: ['&& denotes a mnemonic'] }, "New &&Window")), click: () => this.windowsMainService.openEmptyWindow({ context: OpenContext.DOCK }) })
+{ key: 'mFile', comment: ['&& denotes a mnemonic'] }, "&&File")), submenu: fileMenu }
+{ key: 'mEdit', comment: ['&& denotes a mnemonic'] }, "&&Edit")), submenu: editMenu }
+{ key: 'mSelection', comment: ['&& denotes a mnemonic'] }, "&&Selection")), submenu: selectionMenu }
+{ key: 'mView', comment: ['&& denotes a mnemonic'] }, "&&View")), submenu: viewMenu }
+{ key: 'mGoto', comment: ['&& denotes a mnemonic'] }, "&&Go")), submenu: gotoMenu }
+{ key: 'mRun', comment: ['&& denotes a mnemonic'] }, "&&Run")), submenu: debugMenu }
+{ key: 'mTerminal', comment: ['&& denotes a mnemonic'] }, "&&Terminal")), submenu: terminalMenu }
+{ key: 'mHelp', comment: ['&& denotes a mnemonic'] }, "&&Help")), submenu: helpMenu, role: 'help' }
+{ key: 'miPreferences', comment: ['&& denotes a mnemonic'] }, "&&Preferences")), submenu: preferencesMenu }
+{ key: 'quit', comment: ['&& denotes a mnemonic'] }, "&&Quit")
+{ key: 'cancel', comment: ['&& denotes a mnemonic'] }, "&&Cancel")
+{ key: 'miSwitchWindow', comment: ['&& denotes a mnemonic'] }, "Switch &&Window..."), 'workbench.action.switchWindow'
+{ key: 'exeRecommended', comment: ['Placeholder string is the name of the software that is installed.'] }, "You have {0} installed on your system. Do you want to install the recommended extensions for it?", tips[0].exeFriendlyName
+{ key: 'openWorkspace', comment: ['&& denotes a mnemonic'] }, "&&Open")
+{ key: 'developer', comment: ['A developer on Code itself or someone diagnosing issues in Code'] }, "Developer"
+{ key: 'unchangedLine', comment: ['The placeholders are contents of the line and should not be translated.'] }, "{0} unchanged line {1}", lineContent, originalLine
+{ key: 'miExit', comment: ['&& denotes a mnemonic'] }, "E&&xit"
+{ key: 'yes', comment: ['&& denotes a mnemonic'] }, "&&Yes"
+{ key: 'no', comment: ['&& denotes a mnemonic'] }, "&&No"
+{ key: 'resetButton', comment: ['&& denotes a mnemonic'] }, "&&Reset"
+{ key: 'replaceButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Replace"
+{ key: 'genericSaveError', comment: ['{0} is the resource that failed to save and {1} the error message'] }, "Failed to save '{0}': {1}", model.name, toErrorMessage(error, false))
+{ key: 'genericSaveError', comment: ['{0} is the resource that failed to save and {1} the error message'] }, "Failed to save '{0}': {1}", this.name, toErrorMessage(error, false)
+{ key: 'replaceButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Replace"
+{ key: 'preferredDarkColorTheme', comment: ['`#{0}#` will become a link to an other setting. Do not remove backtick or #'] }, 'Specifies the preferred color theme for dark OS appearance when `#{0}#` is enabled.', ThemeSettings.DETECT_COLOR_SCHEME
+{ key: 'preferredLightColorTheme', comment: ['`#{0}#` will become a link to an other setting. Do not remove backtick or #'] }, 'Specifies the preferred color theme for light OS appearance when `#{0}#` is enabled.', ThemeSettings.DETECT_COLOR_SCHEME
+{ key: 'preferredHCDarkColorTheme', comment: ['`#{0}#` will become a link to an other setting. Do not remove backtick or #'] }, 'Specifies the preferred color theme used in high contrast dark mode when `#{0}#` is enabled.', ThemeSettings.DETECT_HC
+{ key: 'preferredHCLightColorTheme', comment: ['`#{0}#` will become a link to an other setting. Do not remove backtick or #'] }, 'Specifies the preferred color theme used in high contrast light mode when `#{0}#` is enabled.', ThemeSettings.DETECT_HC
+{ key: 'error.invalidformat.colors', comment: ['{0} will be replaced by a path. Values in quotes should not be translated.'] }, "Problem parsing color theme file: {0}. Property 'colors' is not of type 'object'.", themeLocation.toString()))
+{ key: 'error.invalidformat.tokenColors', comment: ['{0} will be replaced by a path. Values in quotes should not be translated.'] }, "Problem parsing color theme file: {0}. Property 'tokenColors' should be either an array specifying colors or a path to a TextMate theme file", themeLocation.toString()))
+{ key: 'error.invalidformat.semanticTokenColors', comment: ['{0} will be replaced by a path. Values in quotes should not be translated.'] }, "Problem parsing color theme file: {0}. Property 'semanticTokenColors' contains a invalid selector", themeLocation.toString()))
+{ key: 'vscode.extension.contributes.submenu.icon', comment: ['do not translate or change `\\$(zap)`, \\ in front of $ is important.'] }, '(Optional) Icon which is used to represent the submenu in the UI. Either a file path, an object with file paths for dark and light themes, or a theme icon references, like `\\$(zap)`'
+{ key: 'vscode.extension.contributes.commandType.icon', comment: ['do not translate or change `\\$(zap)`, \\ in front of $ is important.'] }, '(Optional) Icon which is used to represent the command in the UI. Either a file path, an object with file paths for dark and light themes, or a theme icon references, like `\\$(zap)`'
+{ key: 'miCloseWindow', comment: ['&& denotes a mnemonic'] }, "Clos&&e Window"
+{ key: 'miZoomIn', comment: ['&& denotes a mnemonic'] }, "&&Zoom In"
+{ key: 'miZoomOut', comment: ['&& denotes a mnemonic'] }, "&&Zoom Out"
+{ key: 'miZoomReset', comment: ['&& denotes a mnemonic'] }, "&&Reset Zoom"
+{ key: 'save', comment: ['&& denotes a mnemonic'] }, "&&Save"
+{ key: 'dontSave', comment: ['&& denotes a mnemonic'] }, "Do&&n't Save"
+{ key: 'authenticationExtensionPoint', comment: [`'Contributes' means adds here`] }, 'Contributes authentication'
+{ key: 'yesButton', comment: ['&& denotes a mnemonic'] }, "&&Yes")
+src/vs/workbench/electron-sandbox/parts/dialogs/dialogHandler.ts:			return localize({ key: 'aboutDetail', comment: ['Electron, Chromium, Node.js and V8 are product names that need no translation'] },
+{ key: 'copy', comment: ['&& denotes a mnemonic'] }, "&&Copy")
+{ key: 'miUndo', comment: ['&& denotes a mnemonic'] }, "&&Undo"
+{ key: 'miRedo', comment: ['&& denotes a mnemonic'] }, "&&Redo"
+{ key: 'miSelectAll', comment: ['&& denotes a mnemonic'] }, "&&Select All"
+{ key: 'loginButton', comment: ['&& denotes a mnemonic'] }, "&&Log In"
+{ key: 'cancelButton', comment: ['&& denotes a mnemonic'] }, "&&Cancel"
+{ key: 'exitButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Exit")
+{ key: 'closeWindowButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Close Window"
+{ key: 'updateButton', comment: ['&& denotes a mnemonic'] }, "&&Update")
+{ key: 'miCloseRemote', comment: ['&& denotes a mnemonic'] }, "Close Re&&mote Connection"
+{ key: 'host.tooltip', comment: ['{0} is a remote host name, e.g. Dev Container'] }, "Editing on {0}", hostLabel)
+{ key: 'workspace.tooltip', comment: ['{0} is a remote workspace name, e.g. GitHub'] }, "Editing on {0}", workspaceLabel)
+{ key: 'miPlayground', comment: ['&& denotes a mnemonic'] }, "Editor Playgrou&&nd"
+{ key: 'workspaceTrustEditorHeaderActions', comment: ['Please ensure the markdown link syntax is not broken up with whitespace [text block](link block)'] }, "[Configure your settings]({0}) or [learn more](https://aka.ms/vscode-workspace-trust).", `command:workbench.trust.configure`
+{ key: 'untrustedExtensions', comment: ['Please ensure the markdown link syntax is not broken up with whitespace [text block](link block)'] }, "[{0} extensions]({1}) are disabled or have limited functionality", numExtensions, `command:${LIST_WORKSPACE_UNSUPPORTED_EXTENSIONS_COMMAND_ID}`)
+{ key: 'untrustedExtensions', comment: ['Please ensure the markdown link syntax is not broken up with whitespace [text block](link block)'] }, "[{0} extensions]({1}) are disabled or have limited functionality", numExtensions, `command:${LIST_WORKSPACE_UNSUPPORTED_EXTENSIONS_COMMAND_ID}`)
+{ key: 'gettingStarted.editingEvolved', comment: ['Shown as subtitle on the Welcome page.'] }, "Editing evolved")
+{ key: 'newItems', comment: ['Shown when a list of items has changed based on an update from a remote source'] }, "Updated"))
+src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts:		const text = localize({ key: 'footer', comment: ['fist substitution is "vs code", second is "privacy statement", third is "opt out".'] },
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'workbench.startupEditor.none' }, "Start without an editor."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'workbench.startupEditor.welcomePage' }, "Open the Welcome page, with content to aid in getting started with VS Code and extensions."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'workbench.startupEditor.readme' }, "Open the README when opening a folder that contains one, fallback to 'welcomePage' otherwise. Note: This is only observed as a global configuration, it will be ignored if set in a workspace or folder configuration."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'workbench.startupEditor.newUntitledFile' }, "Open a new untitled file (only applies when opening an empty window)."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'workbench.startupEditor.welcomePageInEmptyWorkbench' }, "Open the Welcome page when opening an empty workbench."
+{ key: 'watermark.toggleTerminal', comment: ['toggle is a verb here'] }, "Toggle Terminal"
+{ key: 'watermark.toggleFullscreen', comment: ['toggle is a verb here'] }, "Toggle Full Screen"), id: 'workbench.action.toggleFullScreen', when: TerminalContextKeys.processSupported.toNegated(
+{ key: 'rightResourceName', comment: ['local as in file in disk'] }, "{0} (Local)", basename(localResource))
+{ key: 'confirm replace', comment: ['A confirmation message to replace current user data (settings, extensions, keybindings, snippets) with selected version'] }, "Would you like to replace your current {0} with selected?", getSyncAreaLabel(syncResource)
+{ key: 'current', comment: ['Represents current machine'] }, "Current"
+{ key: 'current', comment: ['Current machine'] }, "Current"
+{ key: 'turn off', comment: ['&& denotes a mnemonic'] }, "&&Turn off"
+{ key: 'current', comment: ['Represents current log file'] }, "Current"
+{ key: 'local too many requests - reload', comment: ['Settings Sync is the name of the feature'] }, "Settings sync is suspended temporarily because the current device is making too many requests. Please reload {0} to resume.", this.productService.nameLong
+{ key: 'local too many requests - restart', comment: ['Settings Sync is the name of the feature'] }, "Settings sync is suspended temporarily because the current device is making too many requests. Please restart {0} to resume.", this.productService.nameLong
+{ key: 'server too many requests', comment: ['Settings Sync is the name of the feature'] }, "Settings sync is disabled because the current device is making too many requests. Please wait for 10 minutes and turn on sync."
+{ key: 'turn on failed', comment: ['Substitution is for error reason'] }, "Error while turning on Settings Sync. {0}", getErrorMessage(e))
+{ key: 'turn off', comment: ['&& denotes a mnemonic'] }, "&&Turn off"
+{ key: 'focus view', comment: ['{0} indicates the name of the view to be focused.'] }, "Focus on {0} View", viewDescriptor.name
+{ key: 'workbench.actions.sync.openConflicts', comment: ['This is an action title to show the conflicts between local and remote version of resources'] }, "Show Conflicts"
+{ key: 'remoteResourceName', comment: ['remote as in file in cloud'] }, "{0} (Remote)", basename(conflictToOpen.remoteResource)
+{ key: 'leftResourceName', comment: ['remote as in file in cloud'] }, "{0} (Remote)", basename(leftResource)
+{ key: 'rightResourceName', comment: ['local as in file in disk'] }, "{0} (Local)", basename(rightResource)
+{ key: 'mFile', comment: ['&& denotes a mnemonic'] }, "&&File"
+{ key: 'mEdit', comment: ['&& denotes a mnemonic'] }, "&&Edit"
+{ key: 'mSelection', comment: ['&& denotes a mnemonic'] }, "&&Selection"
+{ key: 'mView', comment: ['&& denotes a mnemonic'] }, "&&View"
+{ key: 'mGoto', comment: ['&& denotes a mnemonic'] }, "&&Go"
+{ key: 'mTerminal', comment: ['&& denotes a mnemonic'] }, "&&Terminal"
+{ key: 'mHelp', comment: ['&& denotes a mnemonic'] }, "&&Help"
+{ key: 'checkForUpdates', comment: ['&& denotes a mnemonic'] }, "Check for &&Updates..."), undefined, true, (
+{ key: 'download now', comment: ['&& denotes a mnemonic'] }, "D&&ownload Update"), undefined, true, (
+{ key: 'installUpdate...', comment: ['&& denotes a mnemonic'] }, "Install &&Update..."), undefined, true, (
+{ key: 'restartToUpdate', comment: ['&& denotes a mnemonic'] }, "Restart to &&Update"), undefined, true, (
+{ key: 'miSelectColorTheme', comment: ['&& denotes a mnemonic'] }, "&&Color Theme"
+{ key: 'miSelectIconTheme', comment: ['&& denotes a mnemonic'] }, "File &&Icon Theme"
+{ key: 'miSelectProductIconTheme', comment: ['&& denotes a mnemonic'] }, "&&Product Icon Theme"
+{ key: 'multiLinePasteButton', comment: ['&& denotes a mnemonic'] }, "&&Paste"
+{ key: 'miNewTerminal', comment: ['&& denotes a mnemonic'] }, "&&New Terminal"
+{ key: 'miSplitTerminal', comment: ['&& denotes a mnemonic'] }, "&&Split Terminal"
+{ key: 'miRunActiveFile', comment: ['&& denotes a mnemonic'] }, "Run &&Active File"
+{ key: 'miRunSelectedText', comment: ['&& denotes a mnemonic'] }, "Run &&Selected Text"
+{ key: 'confirmDirtyTerminal.button', comment: ['&& denotes a mnemonic'] }, "&&Terminate"
+{ key: 'miToggleIntegratedTerminal', comment: ['&& denotes a mnemonic'] }, "&&Terminal"
+{ key: 'miAuxiliaryBar', comment: ['&& denotes a mnemonic'] }, "Secondary Si&&de Bar"
+{ key: 'miViewTesting', comment: ['&& denotes a mnemonic'] }, "T&&esting"
+{ key: 'TaskSystem.terminateTask', comment: ['&& denotes a mnemonic'] }, "&&Terminate Task"
+{ key: 'TaskSystem.exitAnyways', comment: ['&& denotes a mnemonic'] }, "&&Exit Anyways"
+{ key: 'miPanel', comment: ['&& denotes a mnemonic'] }, "&&Panel"
+{ key: 'notifications', comment: ['{0} will be replaced by a number'] }, "{0} New Notifications", this.newNotificationsCount
+{ key: 'noNotificationsWithProgress', comment: ['{0} will be replaced by a number'] }, "No New Notifications ({0} in progress)", notificationsInProgress
+{ key: 'oneNotificationWithProgress', comment: ['{0} will be replaced by a number'] }, "1 New Notification ({0} in progress)", notificationsInProgress
+{ key: 'notificationsWithProgress', comment: ['{0} and {1} will be replaced by a number'] }, "{0} New Notifications ({1} in progress)", this.newNotificationsCount, notificationsInProgress
+{ key: 'miRunTask', comment: ['&& denotes a mnemonic'] }, "&&Run Task..."
+{ key: 'miBuildTask', comment: ['&& denotes a mnemonic'] }, "Run &&Build Task..."
+{ key: 'miRunningTask', comment: ['&& denotes a mnemonic'] }, "Show Runnin&&g Tasks..."
+{ key: 'miRestartTask', comment: ['&& denotes a mnemonic'] }, "R&&estart Running Task..."
+{ key: 'miTerminateTask', comment: ['&& denotes a mnemonic'] }, "&&Terminate Task..."
+{ key: 'miConfigureTask', comment: ['&& denotes a mnemonic'] }, "&&Configure Tasks..."
+{ key: 'miConfigureBuildTask', comment: ['&& denotes a mnemonic'] }, "Configure De&&fault Build Task..."
+{ key: 'TaskSystem.invalidTaskJsonOther', comment: ['Message notifies of an error in one of several places there is tasks related json, not necessarily in a file named tasks.json'] }, 'Error: The content of the tasks json in {0} has syntax errors. Please correct them before executing a task.\n', location)
+{ key: 'yesButton', comment: ['&& denotes a mnemonic'] }, "&&Yes")
+{ key: 'tabSize', comment: ['Tab corresponds to the tab key'] }, "Tab Size: {0}", modelOpts.tabSize
+{ key: 'miForward', comment: ['&& denotes a mnemonic'] }, "&&Forward"
+{ key: 'miBack', comment: ['&& denotes a mnemonic'] }, "&&Back"
+{ key: 'clearButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Clear"
+{ key: 'clearButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Clear"
+{ key: 'miReopenClosedEditor', comment: ['&& denotes a mnemonic'] }, "&&Reopen Closed Editor"
+{ key: 'miClearRecentOpen', comment: ['&& denotes a mnemonic'] }, "&&Clear Recently Opened"
+{ key: 'miEditorLayout', comment: ['&& denotes a mnemonic'] }, "Editor &&Layout"
+{ key: 'miSplitEditorUp', comment: ['&& denotes a mnemonic'] }, "Split &&Up"
+{ key: 'miSplitEditorDown', comment: ['&& denotes a mnemonic'] }, "Split &&Down"
+{ key: 'miSplitEditorLeft', comment: ['&& denotes a mnemonic'] }, "Split &&Left"
+{ key: 'miSplitEditorRight', comment: ['&& denotes a mnemonic'] }, "Split &&Right"
+{ key: 'miSplitEditorInGroup', comment: ['&& denotes a mnemonic'] }, "Split in &&Group"
+{ key: 'miJoinEditorInGroup', comment: ['&& denotes a mnemonic'] }, "Join in &&Group"
+{ key: 'miSingleColumnEditorLayout', comment: ['&& denotes a mnemonic'] }, "&&Single"
+{ key: 'miTwoColumnsEditorLayout', comment: ['&& denotes a mnemonic'] }, "&&Two Columns"
+{ key: 'miThreeColumnsEditorLayout', comment: ['&& denotes a mnemonic'] }, "T&&hree Columns"
+{ key: 'miTwoRowsEditorLayout', comment: ['&& denotes a mnemonic'] }, "T&&wo Rows"
+{ key: 'miThreeRowsEditorLayout', comment: ['&& denotes a mnemonic'] }, "Three &&Rows"
+{ key: 'miTwoByTwoGridEditorLayout', comment: ['&& denotes a mnemonic'] }, "&&Grid (2x2)"
+{ key: 'miTwoRowsRightEditorLayout', comment: ['&& denotes a mnemonic'] }, "Two R&&ows Right"
+{ key: 'miTwoColumnsBottomEditorLayout', comment: ['&& denotes a mnemonic'] }, "Two &&Columns Bottom"
+{ key: 'miLastEditLocation', comment: ['&& denotes a mnemonic'] }, "&&Last Edit Location"
+{ key: 'miFirstSideEditor', comment: ['&& denotes a mnemonic'] }, "&&First Side in Editor"
+{ key: 'miSecondSideEditor', comment: ['&& denotes a mnemonic'] }, "&&Second Side in Editor"
+{ key: 'miNextEditor', comment: ['&& denotes a mnemonic'] }, "&&Next Editor"
+{ key: 'miPreviousEditor', comment: ['&& denotes a mnemonic'] }, "&&Previous Editor"
+{ key: 'miNextRecentlyUsedEditor', comment: ['&& denotes a mnemonic'] }, "&&Next Used Editor"
+{ key: 'miPreviousRecentlyUsedEditor', comment: ['&& denotes a mnemonic'] }, "&&Previous Used Editor"
+{ key: 'miNextEditorInGroup', comment: ['&& denotes a mnemonic'] }, "&&Next Editor in Group"
+{ key: 'miPreviousEditorInGroup', comment: ['&& denotes a mnemonic'] }, "&&Previous Editor in Group"
+{ key: 'miNextUsedEditorInGroup', comment: ['&& denotes a mnemonic'] }, "&&Next Used Editor in Group"
+{ key: 'miPreviousUsedEditorInGroup', comment: ['&& denotes a mnemonic'] }, "&&Previous Used Editor in Group"
+{ key: 'miSwitchEditor', comment: ['&& denotes a mnemonic'] }, "Switch &&Editor"
+{ key: 'miFocusFirstGroup', comment: ['&& denotes a mnemonic'] }, "Group &&1"
+{ key: 'miFocusSecondGroup', comment: ['&& denotes a mnemonic'] }, "Group &&2"
+{ key: 'miFocusThirdGroup', comment: ['&& denotes a mnemonic'] }, "Group &&3"
+{ key: 'miFocusFourthGroup', comment: ['&& denotes a mnemonic'] }, "Group &&4"
+{ key: 'miFocusFifthGroup', comment: ['&& denotes a mnemonic'] }, "Group &&5"
+{ key: 'miNextGroup', comment: ['&& denotes a mnemonic'] }, "&&Next Group"
+{ key: 'miPreviousGroup', comment: ['&& denotes a mnemonic'] }, "&&Previous Group"
+{ key: 'miFocusLeftGroup', comment: ['&& denotes a mnemonic'] }, "Group &&Left"
+{ key: 'miFocusRightGroup', comment: ['&& denotes a mnemonic'] }, "Group &&Right"
+{ key: 'miFocusAboveGroup', comment: ['&& denotes a mnemonic'] }, "Group &&Above"
+{ key: 'miFocusBelowGroup', comment: ['&& denotes a mnemonic'] }, "Group &&Below"
+{ key: 'miSwitchGroup', comment: ['&& denotes a mnemonic'] }, "Switch &&Group"
+{ key: 'miViewSearch', comment: ['&& denotes a mnemonic'] }, "&&Search"
+{ key: 'miFindInFiles', comment: ['&& denotes a mnemonic'] }, "Find &&in Files"
+{ key: 'miReplaceInFiles', comment: ['&& denotes a mnemonic'] }, "Replace &&in Files"
+{ key: 'exclude.when', comment: ['\\$(basename) should not be translated'] }, 'Additional check on the siblings of a matching file. Use \\$(basename) as variable for the matching file name.'
+{ key: 'search.searchEditor.reusePriorSearchConfiguration', comment: ['"Search Editor" is a type of editor that can display search results. "includes, excludes, and flags" refers to the "files to include" and "files to exclude" input boxes, and the flags that control whether a query is case-sensitive or a regex.'] }, "When enabled, new Search Editors will reuse the includes, excludes, and flags of the previously opened Search Editor."
+{ key: 'miGotoSymbolInWorkspace', comment: ['&& denotes a mnemonic'] }, "Go to Symbol in &&Workspace..."
+{ key: 'openToSide', comment: ['Open this file in a split editor on the left/right side'] }, "Open to the Side"
+{ key: 'openToBottom', comment: ['Open this file in a split editor on the bottom'] }, "Open to the Bottom"
+{ key: 'miOpenSnippets', comment: ['&& denotes a mnemonic'] }, "User &&Snippets"
+{ key: 'miViewSCM', comment: ['&& denotes a mnemonic'] }, "Source &&Control"
+{ key: 'miGotoNextChange', comment: ['&& denotes a mnemonic'] }, "Next &&Change"
+{ key: 'miGotoPreviousChange', comment: ['&& denotes a mnemonic'] }, "Previous &&Change"
+{ key: 'miCommandPalette', comment: ['&& denotes a mnemonic'] }, "&&Command Palette..."
+{ key: 'miShowAllCommands', comment: ['&& denotes a mnemonic'] }, "Show All Commands"
+{ key: 'miOpenView', comment: ['&& denotes a mnemonic'] }, "&&Open View..."
+{ key: 'miGotoLine', comment: ['&& denotes a mnemonic'] }, "Go to &&Line/Column..."
+{ key: 'restoreButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Restore"
+{ key: 'deleteButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Delete"
+{ key: 'deleteAllButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Delete All"
+{ key: 'clearButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Clear"
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'scrollToSwitchTabs' }, "Controls whether scrolling over tabs will open them or not. By default tabs will only reveal upon scrolling, but not open. You can press and hold the Shift-key while scrolling to change this behavior for that duration. This value is ignored when `#workbench.editor.showTabs#` is disabled."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'untitledHint' }, "Controls if the untitled text hint should be visible in the editor."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'editorTabCloseButton' }, "Controls the position of the editor's tabs close buttons, or disables them when set to 'off'. This value is ignored when `#workbench.editor.showTabs#` is disabled."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'tabSizing' }, "Controls the sizing of editor tabs. This value is ignored when `#workbench.editor.showTabs#` is disabled."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'pinnedTabSizing' }, "Controls the sizing of pinned editor tabs. Pinned tabs are sorted to the beginning of all opened tabs and typically do not close until unpinned. This value is ignored when `#workbench.editor.showTabs#` is disabled."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'splitSizing' }, "Controls the sizing of editor groups when splitting them."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'editorOpenPositioning' }, "Controls where editors open. Select `left` or `right` to open editors to the left or right of the currently active one. Select `first` or `last` to open editors independently from the currently active one."
+{ key: 'layoutControlEnabled', comment: ['{0} is a placeholder for a setting identifier.'] }, "Controls whether the layout control is shown in the custom title bar. This setting only has an effect when {0} is set to {1}.", '`#window.titleBarStyle#`', '`custom`'
+{ key: 'window.commandCenter', comment: ['{0} is a placeholder for a setting identifier.'] }, "Show command launcher together with the window title. This setting only has an effect when {0} is set to {1}.", '`#window.titleBarStyle#`', '`custom`'
+{ key: 'window.menuBarVisibility.compact', comment: ['{0} is a placeholder for a setting identifier.'] }, "Menu is displayed as a compact button in the side bar. This value is ignored when {0} is {1}.", '`#window.titleBarStyle#`', '`native`'
+{ key: 'miOpenSettings', comment: ['&& denotes a mnemonic'] }, "&&Settings"
+{ key: 'miOpenOnlineSettings', comment: ['&& denotes a mnemonic'] }, "&&Online Services Settings"
+{ key: 'miPreferences', comment: ['&& denotes a mnemonic'] }, "&&Preferences"
+{ key: 'miToggleOutput', comment: ['&& denotes a mnemonic'] }, "&&Output"
+{ key: 'miMarker', comment: ['&& denotes a mnemonic'] }, "&&Problems"
+{ key: 'reload', comment: ['&& denotes a mnemonic character'] }, "&&Reload"
+{ key: 'reload', comment: ['&& denotes a mnemonic character'] }, "&&Reload"
+{ key: 'restart', comment: ['&& denotes a mnemonic character'] }, "&&Restart"
+{ key: 'reportIssueInEnglish', comment: ['Translate this to "Report Issue in English" in all languages please!'] }, "Report Issue"
+{ key: 'reportPerformanceIssue', comment: [`Here, 'issue' means problem or bug`] }, "Report Performance Issue..."
+{ key: 'stopTracing.button', comment: ['&& denotes a mnemonic'] }, "&&Relaunch and Enable Tracing"
+{ key: 'reportIssueInEnglish', comment: ['Translate this to "Report Issue in English" in all languages please!'] }, "Report Issue..."
+{ key: 'miReportIssue', comment: ['&& denotes a mnemonic', 'Translate this to "Report Issue in English" in all languages please!'] }, "Report &&Issue"
+{ key: 'miOpenProcessExplorerer', comment: ['&& denotes a mnemonic'] }, "Open &&Process Explorer"
+{ key: 'moveButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Move"
+{ key: 'deleteButtonLabelTrash', comment: ['&& denotes a mnemonic'] }, "&&Move to Trash"
+{ key: 'deleteButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Delete"
+{ key: 'deleteFileBulkEdit', comment: ['Placeholder will be replaced by the name of the file deleted'] }, "Delete {0}", distinctElements[0].name
+{ key: 'deletingFileBulkEdit', comment: ['Placeholder will be replaced by the name of the file deleted'] }, "Deleting {0}", distinctElements[0].name
+{ key: 'deletePermanentlyButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Delete Permanently"
+{ key: 'retryButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Retry"
+{ key: 'movingBulkEdit', comment: ['Placeholder will be replaced by the number of files being moved'] }, "Moving {0} files", sourceTargetPairs.length
+{ key: 'movingFileBulkEdit', comment: ['Placeholder will be replaced by the name of the file moved.'] }, "Moving {0}", resources.basenameOrAuthority(sourceTargetPairs[0].target)
+{ key: 'moveBulkEdit', comment: ['Placeholder will be replaced by the number of files being moved'] }, "Move {0} files", sourceTargetPairs.length
+{ key: 'moveFileBulkEdit', comment: ['Placeholder will be replaced by the name of the file moved.'] }, "Move {0}", resources.basenameOrAuthority(sourceTargetPairs[0].target)
+{ key: 'copyingBulkEdit', comment: ['Placeholder will be replaced by the number of files being copied'] }, "Copying {0} files", sourceTargetPairs.length
+{ key: 'copyingFileBulkEdit', comment: ['Placeholder will be replaced by the name of the file copied.'] }, "Copying {0}", resources.basenameOrAuthority(sourceTargetPairs[0].target)
+{ key: 'copyBulkEdit', comment: ['Placeholder will be replaced by the number of files being copied'] }, "Paste {0} files", sourceTargetPairs.length
+{ key: 'copyFileBulkEdit', comment: ['Placeholder will be replaced by the name of the file copied.'] }, "Paste {0}", resources.basenameOrAuthority(sourceTargetPairs[0].target)
+{ comment: ['substitution will be the name of the file that was imported'], key: 'importFile' }, "Import {0}", basename(resourcesFiltered[0])
+{ comment: ['substitution will be the number of files that were imported'], key: 'importnFile' }, "Import {0} resources", resourcesFiltered.length
+{ comment: ['substitution will be the name of the file that was copied'], key: 'copyingFile' }, "Copying {0}", basename(resourcesFiltered[0])
+{ comment: ['substitution will be the number of files that were copied'], key: 'copyingnFile' }, "Copying {0} resources", resourcesFiltered.length
+{ key: 'replaceButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Replace"
+{ key: 'replaceButtonLabel', comment: ['&& denotes a mnemonic'] }, "&&Replace"
+{ key: 'files.exclude.when', comment: ['\\$(basename) should not be translated'] }, "Additional check on the siblings of a matching file. Use \\$(basename) as variable for the matching file name."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'files.autoSave.off' }, "An editor with changes is never automatically saved."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'files.autoSave.afterDelay' }, "An editor with changes is automatically saved after the configured `#files.autoSaveDelay#`."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'files.autoSave.onFocusChange' }, "An editor with changes is automatically saved when the editor loses focus."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'files.autoSave.onWindowChange' }, "An editor with changes is automatically saved when the window loses focus."
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'autoSave' }, "Controls [auto save](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save) of editors that have unsaved changes.", AutoSaveConfiguration.OFF, AutoSaveConfiguration.AFTER_DELAY, AutoSaveConfiguration.ON_FOCUS_CHANGE, AutoSaveConfiguration.ON_WINDOW_CHANGE, AutoSaveConfiguration.AFTER_DELAY
+{ comment: ['This is the description for a setting. Values surrounded by single quotes are not to be translated.'], key: 'autoSaveDelay' }, "Controls the delay in milliseconds after which an editor with unsaved changes is saved automatically. Only applies when `#files.autoSave#` is set to `{0}`.", AutoSaveConfiguration.AFTER_DELAY
+{ key: 'everything', comment: ['This is the description of an option'] }, "Format the whole file."
+{ key: 'modification', comment: ['This is the description of an option'] }, "Format modifications (requires source control)."
+{ key: 'modificationIfAvailable', comment: ['This is the description of an option'] }, "Will attempt to format modifications only (requires source control). If source control can't be used, then the whole file will be formatted."
+{ key: 'openEditorsVisible', comment: ['Open is an adjective'] }, "The maximum number of editors shown in the Open Editors pane. Setting this to 0 hides the Open Editors pane."
+{ key: 'openEditorsVisibleMin', comment: ['Open is an adjective'] }, "The minimum number of editor slots shown in the Open Editors pane. If set to 0 the Open Editors pane will dynamically resize based on the number of editors."
+{ key: 'openEditorsSortOrder', comment: ['Open is an adjective'] }, "Controls the sorting order of editors in the Open Editors pane."
+{ key: 'openEditors', comment: ['Open is an adjective'] }, "Open Editors"
+{ key: 'miToggleEditorLayout', comment: ['&& denotes a mnemonic'] }, "Flip &&Layout"
+{ key: 'genericSaveError', comment: ['{0} is the resource that failed to save and {1} the error message'] }, "Failed to save '{0}': {1}", editors.map(({ editor }) => editor.getName()).join(', '), toErrorMessage(error, false)
+{ key: 'miNewFile', comment: ['&& denotes a mnemonic'] }, "&&New Text File"
+{ key: 'miSave', comment: ['&& denotes a mnemonic'] }, "&&Save"
+{ key: 'miSaveAs', comment: ['&& denotes a mnemonic'] }, "Save &&As..."
+{ key: 'miSaveAll', comment: ['&& denotes a mnemonic'] }, "Save A&&ll"
+{ key: 'miAutoSave', comment: ['&& denotes a mnemonic'] }, "A&&uto Save"
+{ key: 'miRevert', comment: ['&& denotes a mnemonic'] }, "Re&&vert File"
+{ key: 'miCloseEditor', comment: ['&& denotes a mnemonic'] }, "&&Close Editor"
+{ key: 'miGotoFile', comment: ['&& denotes a mnemonic'] }, "Go to &&File..."
+{ key: 'genericSaveError', comment: ['{0} is the resource that failed to save and {1} the error message'] }, "Failed to save '{0}': {1}", basename(resource), toErrorMessage(error, false)
+{ key: 'miViewExplorer', comment: ['&& denotes a mnemonic'] }, "&&Explorer"
+src/vs/workbench/contrib/files/browser/explorerViewlet.ts:	content: localize({ key: 'noWorkspaceHelp', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/files/browser/explorerViewlet.ts:	content: localize({ key: 'noFolderHelpWeb', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/files/browser/explorerViewlet.ts:	content: localize({ key: 'remoteNoFolderHelp', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/files/browser/explorerViewlet.ts:	content: localize({ key: 'noFolderButEditorsHelp', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/files/browser/explorerViewlet.ts:	content: localize({ key: 'noFolderHelp', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+{ key: 'install everywhere tooltip', comment: ['Placeholder is the name of the product. Eg: Visual Studio Code or Visual Studio Code - Insiders'] }, "Install this extension in all your synced {0} instances", productService.nameLong
+{ key: 'install in remote', comment: ['This is the name of the action to install an extension in remote server. Placeholder is for the name of remote server.'] }, "Install in {0}", this.extensionManagementServerService.remoteExtensionManagementServer.label
+{ key: 'miViewExtensions', comment: ['&& denotes a mnemonic'] }, "E&&xtensions"
+{ key: 'miPreferencesExtensions', comment: ['&& denotes a mnemonic'] }, "&&Extensions"
+{ key: 'miimportKeyboardShortcutsFrom', comment: ['&& denotes a mnemonic'] }, "&&Migrate Keyboard Shortcuts from..."
+{ key: 'installButton', comment: ['&& denotes a mnemonic'] }, "&&Install")
+{ key: 'remote', comment: ['Remote as in remote machine'] }, "Remote"
+{ key: 'miEmmetExpandAbbreviation', comment: ['&& denotes a mnemonic'] }, "Emmet: E&&xpand Abbreviation"
+{ key: 'logStorage', comment: ['A developer only action to log the contents of the storage for the current window.'] }, "Log Storage Database Contents"
+{ key: 'logWorkingCopies', comment: ['A developer only action to log the working copies that exist.'] }, "Log Working Copies"
+{ key: 'limitHit', comment: ['amount of errors/warning skipped due to limits'] }, "Not showing {0} further errors and warnings.", diagnostics.length - this._maxDiagnosticsPerFile
+{ key: 'add', comment: ['&& denotes a mnemonic'] }, "&&Add")
+{ key: 'miMore', comment: ['&& denotes a mnemonic'] }, "&&More..."
+{ key: 'miToggleFullScreen', comment: ['&& denotes a mnemonic'] }, "&&Full Screen"
+{ key: 'miAbout', comment: ['&& denotes a mnemonic'] }, "&&About"
+{ key: 'miNewWindow', comment: ['&& denotes a mnemonic'] }, "New &&Window"
+{ key: 'miOpenRecent', comment: ['&& denotes a mnemonic'] }, "Open &&Recent"
+{ key: 'miKeyboardShortcuts', comment: ['&& denotes a mnemonic'] }, "&&Keyboard Shortcuts Reference"
+{ key: 'miVideoTutorials', comment: ['&& denotes a mnemonic'] }, "&&Video Tutorials"
+{ key: 'miTipsAndTricks', comment: ['&& denotes a mnemonic'] }, "Tips and Tri&&cks"
+{ key: 'miDocumentation', comment: ['&& denotes a mnemonic'] }, "&&Documentation"
+{ key: 'miTwitter', comment: ['&& denotes a mnemonic'] }, "&&Join Us on Twitter"
+{ key: 'miUserVoice', comment: ['&& denotes a mnemonic'] }, "&&Search Feature Requests"
+{ key: 'miLicense', comment: ['&& denotes a mnemonic'] }, "View &&License"
+{ key: 'miPrivacyStatement', comment: ['&& denotes a mnemonic'] }, "Privac&&y Statement"
+{ key: 'miActivityBar', comment: ['&& denotes a mnemonic'] }, "&&Activity Bar"
+{ key: 'miToggleCenteredLayout', comment: ['&& denotes a mnemonic'] }, "&&Centered Layout"
+{ key: 'miMoveSidebarRight', comment: ['&& denotes a mnemonic'] }, "&&Move Primary Side Bar Right"
+{ key: 'miMoveSidebarLeft', comment: ['&& denotes a mnemonic'] }, "&&Move Primary Side Bar Left"
+{ key: 'miShowEditorArea', comment: ['&& denotes a mnemonic'] }, "Show &&Editor Area"
+{ key: 'miAppearance', comment: ['&& denotes a mnemonic'] }, "&&Appearance"
+{ key: 'miShowSidebar', comment: ['&& denotes a mnemonic'] }, "&&Primary Side Bar"
+{ key: 'miStatusbar', comment: ['&& denotes a mnemonic'] }, "S&&tatus Bar"
+{ key: 'miMenuBar', comment: ['&& denotes a mnemonic'] }, "Menu &&Bar"
+{ key: 'moveFocusedView.title', comment: ['{0} indicates the title of the view the user has selected to move.'] }, "View: Move {0}", viewDescriptor.name
+{ key: 'moveFocusedView.newContainerInPanel', comment: ['Creates a new top-level tab in the panel.'] }, "New Panel Entry"
+{ key: 'miOpenFile', comment: ['&& denotes a mnemonic'] }, "&&Open File..."
+{ key: 'miOpenFolder', comment: ['&& denotes a mnemonic'] }, "Open &&Folder..."
+{ key: 'miOpenFolder', comment: ['&& denotes a mnemonic'] }, "Open &&Folder..."
+{ key: 'miOpen', comment: ['&& denotes a mnemonic'] }, "&&Open..."
+{ key: 'miOpenWorkspace', comment: ['&& denotes a mnemonic'] }, "Open Wor&&kspace from File..."
+{ key: 'miAddFolderToWorkspace', comment: ['&& denotes a mnemonic'] }, "A&&dd Folder to Workspace..."
+{ key: 'miCloseFolder', comment: ['&& denotes a mnemonic'] }, "Close &&Folder"
+{ key: 'miCloseWorkspace', comment: ['&& denotes a mnemonic'] }, "Close &&Workspace"
+{ key: 'running', comment: ['indicates state'] }, "Running"
+src/vs/workbench/contrib/debug/node/debugAdapter.ts:				throw new Error(nls.localize({ key: 'debugAdapterCannotDetermineExecutable', comment: ['Adapter executable file not found'] },
+{ key: 'accountLastUsedDate', comment: ['The placeholder {0} is a string with time information, such as "3 days ago"'] }, "Last used this account {0}", fromNow(usage.lastUsed, true)
+{ comment: ['Debug is a noun in this context, not a verb.'], key: 'debugFocusConsole' }, 'Focus on Debug Console View'), original: 'Focus on Debug Console View' }
+{ key: 'mRun', comment: ['&& denotes a mnemonic'] }, "&&Run"
+{ key: 'miStartDebugging', comment: ['&& denotes a mnemonic'] }, "&&Start Debugging"
+{ key: 'miRun', comment: ['&& denotes a mnemonic'] }, "Run &&Without Debugging"
+{ key: 'miStopDebugging', comment: ['&& denotes a mnemonic'] }, "&&Stop Debugging"
+{ key: 'miRestart Debugging', comment: ['&& denotes a mnemonic'] }, "&&Restart Debugging"
+{ key: 'miAddConfiguration', comment: ['&& denotes a mnemonic'] }, "A&&dd Configuration..."
+{ key: 'miStepOver', comment: ['&& denotes a mnemonic'] }, "Step &&Over"
+{ key: 'miStepInto', comment: ['&& denotes a mnemonic'] }, "Step &&Into"
+{ key: 'miStepOut', comment: ['&& denotes a mnemonic'] }, "Step O&&ut"
+{ key: 'miContinue', comment: ['&& denotes a mnemonic'] }, "&&Continue"
+{ key: 'miInlineBreakpoint', comment: ['&& denotes a mnemonic'] }, "Inline Breakp&&oint"
+{ key: 'miNewBreakpoint', comment: ['&& denotes a mnemonic'] }, "&&New Breakpoint"
+{ key: 'miInstallAdditionalDebuggers', comment: ['&& denotes a mnemonic'] }, "&&Install Additional Debuggers..."
+{ comment: ['Debug is a noun in this context, not a verb.'], key: 'debugPanel' }, 'Debug Console'
+{ comment: ['Debug is a noun in this context, not a verb.'], key: 'debugPanel' }, 'Debug Console'
+{ key: 'miToggleDebugConsole', comment: ['&& denotes a mnemonic'] }, "De&&bug Console"
+{ key: 'miViewRun', comment: ['&& denotes a mnemonic'] }, "&&Run"
+{ comment: ['This is the description for a setting'], key: 'allowBreakpointsEverywhere' }, "Allow setting breakpoints in any file."
+{ comment: ['This is the description for a setting'], key: 'openExplorerOnEnd' }, "Automatically open the explorer view at the end of a debug session."
+{ comment: ['This is the description for a setting'], key: 'inlineValues' }, "Show variable values inline in editor while debugging."
+{ comment: ['This is the description for a setting'], key: 'toolBarLocation' }, "Controls the location of the debug toolbar. Either `floating` in all views, `docked` in the debug view, or `hidden`."
+{ comment: ['This is the description for a setting'], key: 'showInStatusBar' }, "Controls when the debug status bar should be visible."
+{ comment: ['This is the description for a setting'], key: 'debug.terminal.clearBeforeReusing' }, "Before starting a new debug session in an integrated or external terminal, clear the terminal."
+{ comment: ['This is the description for a setting'], key: 'showSubSessionsInToolBar' }, "Controls whether the debug sub-sessions are shown in the debug tool bar. When this setting is false the stop command on a sub-session will also stop the parent session."
+{ comment: ['This is the description for a setting'], key: 'launch' }, "Global debug launch configuration. Should be used as an alternative to 'launch.json' that is shared across workspaces."
+{ comment: ['This is the description for a setting'], key: 'showBreakpointsInOverviewRuler' }, "Controls whether breakpoints should be shown in the overview ruler."
+{ comment: ['This is the description for a setting'], key: 'showInlineBreakpointCandidates' }, "Controls whether inline breakpoints candidate decorations should be shown in the editor while debugging."
+{ key: 'ask.N.create', comment: ['{0} is a number, e.g "3 extensions want..."'] }, "{0} extensions want to make refactoring changes with this file creation", data.extensionNames.length
+{ key: 'ask.N.copy', comment: ['{0} is a number, e.g "3 extensions want..."'] }, "{0} extensions want to make refactoring changes with this file copy", data.extensionNames.length
+{ key: 'ask.N.move', comment: ['{0} is a number, e.g "3 extensions want..."'] }, "{0} extensions want to make refactoring changes with this file move", data.extensionNames.length
+{ key: 'ask.N.delete', comment: ['{0} is a number, e.g "3 extensions want..."'] }, "{0} extensions want to make refactoring changes with this file deletion", data.extensionNames.length
+{ key: 'quickTip', comment: ['"switch to editor language hover" means to show the programming language hover widget instead of the debug hover'] }, 'Hold {0} key to switch to editor language hover', isMacintosh ? 'Option' : 'Alt'
+{ key: 'variableAriaLabel', comment: ['Do not translate placeholders. Placeholders are name and value of a variable.'] }, "{0}, value {1}, variables, debug", element.name, element.value
+src/vs/workbench/contrib/debug/browser/welcomeView.ts:	content: localize({ key: 'openAFileWhichCanBeDebugged', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/debug/browser/welcomeView.ts:	content: localize({ key: 'runAndDebugAction', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/debug/browser/welcomeView.ts:	content: localize({ key: 'detectThenRunAndDebug', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/debug/browser/welcomeView.ts:	content: localize({ key: 'customizeRunAndDebug', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+src/vs/workbench/contrib/debug/browser/welcomeView.ts:	content: localize({ key: 'customizeRunAndDebugOpenFolder', comment: ['Please do not translate the word "commmand", it is part of our internal syntax which must not change'] },
+{ key: 'vscode.extension.contributes.views.containers.id', comment: ['Contribution refers to those that an extension contributes to VS Code through an extension/contribution point. '] }, "Unique id used to identify the container in which views can be contributed using 'views' contribution point"
+{ comment: ['Debug is a noun in this context, not a verb.'], key: 'watchAriaTreeLabel' }, "Debug Watch Expressions"
+{ key: 'workbench.debug.filter.placeholder', comment: ['Text in the brackets after e.g. is not localizable'] }, "Filter (e.g. text, !exclude)"
+{ key: 'actions.repl.acceptInput', comment: ['Apply input from the debug console input box'] }, "REPL Accept Input"
+{ key: 'variableAriaLabel', comment: ['Placeholders are variable name and variable value respectivly. They should not be translated.'] }, "{0}, value {1}", element.name, element.value
+{ comment: ['Debug is a noun in this context, not a verb.'], key: 'loadedScriptsAriaLabel' }, "Debug Loaded Scripts"
+src/vs/workbench/contrib/debug/browser/replViewer.ts:			return element.value + (element instanceof SimpleReplElement && element.count > 1 ? localize({ key: 'occurred', comment: ['Front will the value of the debug console element. Placeholder will be replaced by a number which represents occurrance count.'] },
+{ key: 'miOpenConfigurations', comment: ['&& denotes a mnemonic'] }, "Open &&Configurations"
+{ key: 'selectWorkspaceFolder', comment: ['User picks a workspace folder or a workspace configuration file here. Workspace configuration files can contain settings and thus a launch.json configuration can be written into one.'] }, "Select a workspace folder to create a launch.json file in or add it to the workspace config file"
+src/vs/workbench/contrib/debug/browser/debugService.ts:					throw new Error(nls.localize({ key: 'compoundMustHaveConfigurations', comment: ['compound indicates a "compounds" configuration item', '"configurations" is an attribute and should not be localized'] },
+{ key: 'installAdditionalDebuggers', comment: ['Placeholder is the debug type, so for example "node", "python"'] }, "Install {0} Extension", resolvedConfig.type
+src/vs/workbench/contrib/debug/browser/debugService.ts:							aria.alert(nls.localize({ key: 'debuggingPaused', comment: ['First placeholder is the file line content, second placeholder is the reason why debugging is stopped, for example "breakpoint", third is the stack frame name, and last is the line number.'] },
+{ key: 'miToggleBreakpoint', comment: ['&& denotes a mnemonic'] }, "Toggle &&Breakpoint"
+{ key: 'miConditionalBreakpoint', comment: ['&& denotes a mnemonic'] }, "&&Conditional Breakpoint..."
+{ key: 'miLogPoint', comment: ['&& denotes a mnemonic'] }, "&&Logpoint..."
+{ key: 'miDisassemblyView', comment: ['&& denotes a mnemonic'] }, "&&DisassemblyView"
+{ key: 'mitogglesource', comment: ['&& denotes a mnemonic'] }, "&&ToggleSource"
+{ key: 'stepIntoTargets', comment: ['Step Into Targets lets the user step into an exact function he or she is interested in.'] }, "Step Into Target"
+{ key: 'providerAriaLabel', comment: ['Placeholder stands for the provider label. For example "NodeJS".'] }, "{0} contributed configurations", provider.label
+{ key: 'running', comment: ['indicates state'] }, "Running"
+{ key: 'session', comment: ['Session is a noun'] }, "Session"
+{ key: 'running', comment: ['indicates state'] }, "Running"
+{ comment: ['Debug is a noun in this context, not a verb.'], key: 'callStackAriaLabel' }, "Debug Call Stack"
+{ key: 'threadAriaLabel', comment: ['Placeholders stand for the thread name and the thread state.For example "Thread 1" and "Stopped'] }, "Thread {0} {1}", element.name, element.stateLabel
+{ key: 'running', comment: ['indicates state'] }, "Running"
+{ key: 'sessionLabel', comment: ['Placeholders stand for the session name and the session state. For example "Launch Program" and "Running"'] }, "Session {0} {1}", element.getLabel(), state
+{ key: 'miFunctionBreakpoint', comment: ['&& denotes a mnemonic'] }, "&&Function Breakpoint..."
+{ key: 'miRemoveAllBreakpoints', comment: ['&& denotes a mnemonic'] }, "Remove &&All Breakpoints"
+{ key: 'miEnableAllBreakpoints', comment: ['&& denotes a mnemonic'] }, "&&Enable All Breakpoints"
+{ key: 'miDisableAllBreakpoints', comment: ['&& denotes a mnemonic'] }, "Disable A&&ll Breakpoints"
+{ key: 'message', comment: ['Presereve double-square brackets and their order'] }, '[[Select a language]], or [[open a different editor]] to get started.\nStart typing to dismiss or [[don\'t show]] this again.'
+{ key: 'miToggleRenderWhitespace', comment: ['&& denotes a mnemonic'] }, "&&Render Whitespace"
+{ key: 'miMinimap', comment: ['&& denotes a mnemonic'] }, "&&Minimap"
+{ key: 'miColumnSelection', comment: ['&& denotes a mnemonic'] }, "Column &&Selection Mode"
+{ key: 'miToggleRenderControlCharacters', comment: ['&& denotes a mnemonic'] }, "Render &&Control Characters"
+{ key: 'miToggleWordWrap', comment: ['&& denotes a mnemonic'] }, "&&Word Wrap"
+{ key: 'miGotoSymbolInEditor', comment: ['&& denotes a mnemonic'] }, "Go to &&Symbol in Editor..."
+{ key: 'close', comment: ['&& denotes a mnemonic'] }, "&&Close")
+{ key: 'open', comment: ['&& denotes a mnemonic'] }, "&&Yes")
+{ key: 'cancel', comment: ['&& denotes a mnemonic'] }, "&&No")
+{ key: 'titleLabel', comment: ['action title', 'action keybinding'] }, "{0} ({1})", title, this.options.keybinding
+{ key: 'ensureLoaderPluginIsLoaded', comment: ['{Locked}'] }, '_'
+{ key: 'selectBox', comment: ['Behave like native select dropdown element.'] }, "Select Box"
+{ key: 'history.inputbox.hint', comment: ['Text will be prefixed with \u21C5 plus a single space, then used as a hint where input field keeps history'] }, "for history"
+{ key: 'ctrlKey', comment: ['This is the short form for the Control key on the keyboard'] }, "Ctrl"
+{ key: 'shiftKey', comment: ['This is the short form for the Shift key on the keyboard'] }, "Shift"
+{ key: 'altKey', comment: ['This is the short form for the Alt key on the keyboard'] }, "Alt"
+{ key: 'windowsKey', comment: ['This is the short form for the Windows key on the keyboard'] }, "Windows"
+{ key: 'ctrlKey', comment: ['This is the short form for the Control key on the keyboard'] }, "Ctrl"
+{ key: 'shiftKey', comment: ['This is the short form for the Shift key on the keyboard'] }, "Shift"
+{ key: 'altKey', comment: ['This is the short form for the Alt key on the keyboard'] }, "Alt"
+{ key: 'superKey', comment: ['This is the short form for the Super key on the keyboard'] }, "Super"
+{ key: 'ctrlKey.long', comment: ['This is the long form for the Control key on the keyboard'] }, "Control"
+{ key: 'shiftKey.long', comment: ['This is the long form for the Shift key on the keyboard'] }, "Shift"
+{ key: 'optKey.long', comment: ['This is the long form for the Alt/Option key on the keyboard'] }, "Option"
+{ key: 'cmdKey.long', comment: ['This is the long form for the Command key on the keyboard'] }, "Command"
+{ key: 'ctrlKey.long', comment: ['This is the long form for the Control key on the keyboard'] }, "Control"
+{ key: 'shiftKey.long', comment: ['This is the long form for the Shift key on the keyboard'] }, "Shift"
+{ key: 'altKey.long', comment: ['This is the long form for the Alt key on the keyboard'] }, "Alt"
+{ key: 'windowsKey.long', comment: ['This is the long form for the Windows key on the keyboard'] }, "Windows"
+{ key: 'ctrlKey.long', comment: ['This is the long form for the Control key on the keyboard'] }, "Control"
+{ key: 'shiftKey.long', comment: ['This is the long form for the Shift key on the keyboard'] }, "Shift"
+{ key: 'altKey.long', comment: ['This is the long form for the Alt key on the keyboard'] }, "Alt"
+{ key: 'superKey.long', comment: ['This is the long form for the Super key on the keyboard'] }, "Super"
+{ key: 'quickInput.visibleCount', comment: ['This tells the user how many items are shown in a list of items to select from. The items can be anything. Currently not visible, but read by screen readers.'] }, "{0} Results") }
+{ key: 'quickInput.countSelected', comment: ['This tells the user how many items are selected in a list of items to select from. The items can be anything.'] }, "{0} Selected") }
